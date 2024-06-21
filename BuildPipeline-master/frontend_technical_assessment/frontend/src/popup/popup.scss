@@ -1,0 +1,42 @@
+.fullscreen-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(98, 50, 93, 0.5);
+    z-index: 9999;
+  }
+.popup{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    position:absolute;
+    text-align: center;
+    padding: 2rem;
+    height: 50vh;
+    width: 20vw;
+    top: 20%;
+    left: 40%;
+    background-color: rgba(37, 37, 37, 0.379);
+    color: white;
+    border: solid 1px white;
+    border-radius: 1rem;
+    h2{
+        margin: 0;
+    }
+    hr{
+        border-bottom: 1px solid white;
+        margin: 1rem 0;
+    }
+}
+.close{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 1rem;
+    padding:1rem;
+    font-weight: 700;
+    font-size: medium;
+
+}

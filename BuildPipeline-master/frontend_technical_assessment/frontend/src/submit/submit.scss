@@ -1,0 +1,17 @@
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    button{
+        background-color: transparent;
+        border: solid 1px white;
+        border-radius: .5rem;
+        padding: .5rem 1rem;
+        font-size: medium;
+        color: white;
+    }:hover{
+        color: rgb(53, 53, 53);
+        background-color: #e3e3e3;
+    }
+}

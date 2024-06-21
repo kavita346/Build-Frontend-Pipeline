@@ -1,0 +1,17 @@
+.board{
+    width: 100vw;
+    height: 70vh;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    background: transparent;  /* fallback for old browsers */
+}
+.react-flow .react-flow__edge-path, .react-flow__connection-path{
+    stroke: white;
+
+}
+.react-flow__panel, .react-flow__panel > svg{
+    border-radius: 1rem;
+} 
+.react-flow__minimap-node{
+    fill: rgb(188, 188, 188);
+}

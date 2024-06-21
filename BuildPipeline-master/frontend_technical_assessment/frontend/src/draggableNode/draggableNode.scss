@@ -1,0 +1,16 @@
+.dragNode {
+    cursor: grab;
+    /* min-width: 80px;
+    height: 60px; */
+    min-width: auto;
+    height: auto;
+    padding: .5rem 1rem;
+    border: solid .25px white;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    background-color: transparent;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}

@@ -1,0 +1,94 @@
+.node {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 1rem;
+    background-color:rgba(84, 84, 84, 0.3);
+    color: white;
+    font-weight: bolder;
+    max-width: 30vw;
+    
+}
+
+.handletext {
+    position: relative;
+    width: 50px;
+    right: 20px;
+    top: 1rem;
+    text-align: center;
+    font-size: 12px;
+  }
+
+hr {
+    width: 100%;
+    margin: 0;
+    border-top: solid .5px white;
+}
+.children {
+
+    display: flex;
+    padding: 1rem;
+    flex: 1;
+    flex-flow: column;
+    row-gap: 1rem;
+    max-width: inherit;
+
+}
+.header{
+
+    width: auto;
+    padding: .5rem ;
+}
+.commonBoxStyle { 
+    border: solid 1px white;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: transparent;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    border-radius: .5rem;
+    }
+    :focus-visible{
+        outline: solid 1px white;
+    }
+    ::placeholder{
+        color: white;
+    }
+
+    .dropdown{
+        @extend .commonBoxStyle;
+        option {
+            padding: .5rem;
+            margin: .5rem;
+            color: #343434;
+        }
+    }
+.node-Input{
+    @extend .node;
+    background-color:rgb(124 66 123 / 22%);
+    
+}
+
+
+.node-Output{
+    @extend .node;
+    background-color:rgb(120 172 91 / 30%);
+}
+
+
+.node-LLM{
+    @extend .node;
+    background-color:rgb(210 191 79 / 31%);
+}
+
+.node-Text{
+    @extend .node;
+    .textBox{
+        @extend .commonBoxStyle;
+        resize: none; 
+    }
+}

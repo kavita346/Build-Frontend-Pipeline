@@ -1,0 +1,13 @@
+.customEdge{
+    position:  absolute ;
+    background:  transparent  ;
+    padding: 8px ;
+    color:  white  ;
+    font-size: 12px ;
+    font-weight: 700 ;
+    z-index: 1;
+    left: 20px;
+}
+.react-flow__edge-path{
+    stroke: #fff;
+}
